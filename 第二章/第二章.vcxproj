@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{34db1966-829d-46bd-9363-378e95d4a4ce}</ProjectGuid>
+    <ProjectGuid>{534b1ce9-3f07-49ef-8763-8dc05aa82e53}</ProjectGuid>
     <RootNamespace>第二章</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,14 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\1.c" />
-    <ClCompile Include="..\2.c" />
-    <ClCompile Include="..\3.c" />
-    <ClCompile Include="..\4.c" />
-    <ClCompile Include="..\5.c" />
-    <ClCompile Include="..\6.c" />
-    <ClCompile Include="..\7.c" />
-    <ClCompile Include="..\8.c" />
+    <ClCompile Include="..\..\第六章\第六章\1.c" />
+    <ClCompile Include="..\..\第六章\第六章\10.c" />
+    <ClCompile Include="..\..\第六章\第六章\11.c" />
+    <ClCompile Include="..\..\第六章\第六章\12.c" />
+    <ClCompile Include="..\..\第六章\第六章\13.c" />
+    <ClCompile Include="..\..\第六章\第六章\2.c" />
+    <ClCompile Include="..\..\第六章\第六章\3.c" />
+    <ClCompile Include="..\..\第六章\第六章\4.c" />
+    <ClCompile Include="..\..\第六章\第六章\5.c" />
+    <ClCompile Include="..\..\第六章\第六章\6.c" />
+    <ClCompile Include="..\..\第六章\第六章\7.c" />
+    <ClCompile Include="..\..\第六章\第六章\8.c" />
+    <ClCompile Include="..\..\第六章\第六章\9.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
