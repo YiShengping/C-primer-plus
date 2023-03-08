@@ -9,19 +9,24 @@
 //    printf("Enter some characters('#' to quit):\n");
 //    while ((ch = getchar()) != STOP)
 //    {
-//        if (ch == '.')
+//        switch (ch)
+//        {
+//        case '.':
 //        {
 //            putchar('!');
 //            n++;
+//            break;
 //        }
-//        else if (ch == '!')
+//        case '!':
 //        {
 //            printf("!!");
 //            n++;
+//            break;
 //        }
-//        else
+//        default:
 //        {
 //            putchar(ch);
+//        }
 //        }
 //    }
 //    printf("\nTotal replace %d times.\n", n);
