@@ -6,10 +6,10 @@
 
 int main(void)
 {
-    double hours = 0.0, tax, taxed_salary;
+    double hours = 0.0, tax, taxed_salary,a;
 
     printf("Enter the working hours a week: ");
-    while (scanf("%lf", &hours) != 1 || (hours < 0))
+    while (scanf_s("%lf", &hours) != 1 || (hours < 0))
     {
         while (getchar() != '\n')
             continue;
