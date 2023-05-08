@@ -56,27 +56,27 @@
 //    }
 //}
 //
-//#include <stdio.h>
-//#include <ctype.h>
-//#define LEN 10
-//
-//char* getword(char* str);
-//
-//int main(int argc, char* argv[])
-//{
-//    char input[LEN];
-//
-//    printf("Please enter a word (EOF to quit):\n");
-//    while (getword(input) != NULL)
-//    {
-//        printf("Result:\n");
-//        puts(input);
-//        printf("You can enter a word again (EOF to quit):\n");
-//    }
-//    printf("Done.\n");
-//
-//    return 0;
-//}
+#include <stdio.h>
+#include <ctype.h>
+#define LEN 10
+
+char* getword(char* str);
+
+int main(int argc, char* argv[])
+{
+    char input[LEN];
+
+    printf("Please enter a word (EOF to quit):\n");
+    while (getword(input) != NULL)
+    {
+        printf("Result:\n");
+        puts(input);
+        printf("You can enter a word again (EOF to quit):\n");
+    }
+    printf("Done.\n");
+
+    return 0;
+}
 
 char* getword(char* str)
 {
