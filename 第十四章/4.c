@@ -1,19 +1,17 @@
 #include<stdio.h>
 #define LEN 12
-struct MyStruct1
+struct messages
 {
 	char ins_num[LEN];
-	struct names
-	{
-
-	};
+	struct names name;
 
 };
-struct MyStruct2 {
+struct names {
 	char firstname[LEN];
 	char middlename[LEN];
 	char lastname[LEN];
 };
 int main(void) {
-	
+	struct messages m[5];
+
 }
